@@ -1,35 +1,41 @@
-# Matemaatiline kartograafia 2021
-Antud juhendid toetavad geograafia eriala magistriõppe kursust <b>Matemaatiline kartograafia LOOM.02.007</b> ja keskenduvad Pythoni matemaatilise kartograafia ja visualiseerimise teegi [Cartopy](https://scitools.org.uk/cartopy/docs/latest/) võimalustele.
+# Mathematical Cartography 2021
+These Jupyter notebooks support the <b> Mathematical Cartography LOOM.02.007 </b> MSc course and focus on the capabilities of the Python mathematical cartography and visualization library [Cartopy](https://scitools.org.uk/cartopy/docs/latest/).
 
-[Esimene](https://github.com/hvirro/mcarto/blob/master/Kaardiakna-juhtimine.ipynb) juhend annab ülevaate kaardiakna loomisest, erinevate projektsioonide kasutamisest ja lihtsamate kaardielementide (kaardivõrk, tekst) konstrueerimisest. [Teine](https://github.com/hvirro/mcarto/blob/master/Kaardielemendid.ipynb) juhend keskendub täiendavate kaardielementide lisamisele, mille hulka kuuluvad nii lisadetailid (punkttähised, tekst ja legend) kui erinevad matemaatilised ja kartograafilised konstruktsioonid (ortodroom jms).
+The first tutorial gives an overview of creating a map window, using projections and constructing basic map elements (grid, text)
+* https://github.com/hvirro/mcarto2021/blob/master/Kaardiakna_juhtimine.ipynb (Estonian version)
+* https://github.com/hvirro/mcarto2021/blob/master/Map_Window_Management.ipynb (English version)
 
-## Ettevalmistus
-Juhendite kasutamine eeldab [Anaconda](https://conda.io/en/master/miniconda.html) olemasolu, mis peaks olema arvutiklassi arvutites tagatud. Kes soovib seda seadistada oma arvutis, võib selleks kasutada Alex Kmochi vastavat [juhendit](https://kodu.ut.ee/~kmoch/geopython2020/L0/Installing_Miniconda_GIS.html).
+The second tutorial focuses on additional map elements, such as point symbols and different cartographic line objects (orthodrome, rhumb line, almucantar)
+* https://github.com/hvirro/mcarto2021/blob/master/Kaardielemendid.ipynb (Estonian version)
+* https://github.com/hvirro/mcarto2021/blob/master/Map_Elements.ipynb (English version)
 
-Esmalt laadi alla ja paki kuhugi kausta lahti käesolev repositoorium koos kõigi failidega (*Clone or download -> Download ZIP*).
+## Preparation
+We will use [Anaconda](https://conda.io/en/master/miniconda.html) for these exercises, which should be installed in the computer class. For setting it up on your own machine you can use the [tutorial](https://kodu.ut.ee/~kmoch/geopython2020/L0/Installing_Miniconda_GIS.html) provided by Alex Kmoch.
 
-Seejärel leia ja ava nn Anaconda Prompt. Loo uus Anaconda keskkond, mille Pythoni versioon on 3.6.
+First, download and unzip this repository to a folder you can find on your machine.
 
-`conda create --name mcarto python=3.6`
+*Clone or download -> Download ZIP*
 
-<img src="https://raw.githubusercontent.com/hvirro/mcarto/master/img/create_env.PNG" height="150">
+Find and launch the Anaconda Prompt using the search bar.
 
-Järgmine rida aktiveerib äsjaloodud keskkonna.
+We will start by creating an Anaconda environment using the existing environment file `mcarto2021_env.yml`, which installs all Python libraries needed for the two exercises.
 
-`activate mcarto`
+`conda env create -f mcarto2021_env.yml`
 
-<img src="https://raw.githubusercontent.com/hvirro/mcarto/master/img/activate_env.PNG" height="150">
+The next command will activate the Anaconda environment we just created.
 
-Nüüd tuleks installida vajalikud Pythoni teegid (Jupyter ja Cartopy). Mõlema puhul tulevad kaasa ka mitmed muud teegid, sh Cartopy (`conda install cartopy`) puhul [Matplotlib](https://matplotlib.org/), millele see tugineb.
+`activate mcarto2021`
 
-<img src="https://raw.githubusercontent.com/hvirro/mcarto/master/img/conda_install.PNG" height="150">
+Now move to the folder where you unzipped the GitHub repository.
 
-Järgnevalt määra aktiivseks kaustaks see, kuhu sai eelnevalt lahti pakitud antud GitHubi repositoorium.
+`cd C:\Users\Holger\mcarto2021-master\mcarto2021-master`
 
-`cd C:\Users\Holger\mcarto-master\mcarto-master`
+Before we start Python coding we will make our newly created conda Python environment known to the Jupyter notebook system by installing the kernel, basically the execution engine link from Jupyter web notebook to our Python environment.
 
-Lõpuks aktiveeri Jupyteri keskkond.
+`python -m ipykernel install --user --name mcarto2021`
+
+Finally, we can activate the Jupyter environment.
 
 `jupyter lab`
 
-Avaneb brauser, kus klõps failil laiendiga *.ipynb* avab vastava töövihiku, mida saab brauseri aknas kasutama hakata.
+A browser window will open where clicking on a Jupyter notebook file with the extension *.ipynb* allows you to start editing the notebook.
