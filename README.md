@@ -40,4 +40,6 @@ Finally, we can activate the Jupyter environment.
 
 A browser window will open where clicking on a Jupyter notebook file with the extension *.ipynb* allows you to start editing the notebook.
 
+Click the Binder icon below to launch the tutorial
+
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/holgervirro/mcarto2021/HEAD)
