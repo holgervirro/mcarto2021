@@ -1,10 +1,10 @@
-# Matemaatiline kartograafia 2019
+# Matemaatiline kartograafia 2021
 Antud juhendid toetavad geograafia eriala magistriõppe kursust <b>Matemaatiline kartograafia LOOM.02.007</b> ja keskenduvad Pythoni matemaatilise kartograafia ja visualiseerimise teegi [Cartopy](https://scitools.org.uk/cartopy/docs/latest/) võimalustele.
 
 [Esimene](https://github.com/hvirro/mcarto/blob/master/Kaardiakna-juhtimine.ipynb) juhend annab ülevaate kaardiakna loomisest, erinevate projektsioonide kasutamisest ja lihtsamate kaardielementide (kaardivõrk, tekst) konstrueerimisest. [Teine](https://github.com/hvirro/mcarto/blob/master/Kaardielemendid.ipynb) juhend keskendub täiendavate kaardielementide lisamisele, mille hulka kuuluvad nii lisadetailid (punkttähised, tekst ja legend) kui erinevad matemaatilised ja kartograafilised konstruktsioonid (ortodroom jms).
 
 ## Ettevalmistus
-Juhendite kasutamine eeldab [Anaconda](https://conda.io/en/master/miniconda.html) olemasolu, mis peaks olema arvutiklassi arvutites tagatud. Kes soovib seda seadistada oma arvutis, võib selleks kasutada Alex Kmochi vastavat [juhendit](https://github.com/allixender/meetup-notes/tree/master/02-python-jupyter).
+Juhendite kasutamine eeldab [Anaconda](https://conda.io/en/master/miniconda.html) olemasolu, mis peaks olema arvutiklassi arvutites tagatud. Kes soovib seda seadistada oma arvutis, võib selleks kasutada Alex Kmochi vastavat [juhendit](https://kodu.ut.ee/~kmoch/geopython2020/L0/Installing_Miniconda_GIS.html).
 
 Esmalt laadi alla ja paki kuhugi kausta lahti käesolev repositoorium koos kõigi failidega (*Clone or download -> Download ZIP*).
 
@@ -28,8 +28,8 @@ Järgnevalt määra aktiivseks kaustaks see, kuhu sai eelnevalt lahti pakitud an
 
 `cd C:\Users\Holger\mcarto-master\mcarto-master`
 
-Lõpuks aktiveeri Jupyteri Notebook.
+Lõpuks aktiveeri Jupyteri keskkond.
 
-`jupyter notebook`
+`jupyter lab`
 
 Avaneb brauser, kus klõps failil laiendiga *.ipynb* avab vastava töövihiku, mida saab brauseri aknas kasutama hakata.
