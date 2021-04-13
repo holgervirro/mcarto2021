@@ -2,12 +2,12 @@
 These Jupyter notebooks support the <b> Mathematical Cartography LOOM.02.007 </b> MSc course and focus on the capabilities of the Python mathematical cartography and visualization library [Cartopy](https://scitools.org.uk/cartopy/docs/latest/).
 
 The first tutorial gives an overview of creating a map window, using projections and constructing basic map elements (grid, text)
-* https://github.com/hvirro/mcarto2021/blob/master/Kaardiakna_juhtimine.ipynb (Estonian version)
-* https://github.com/hvirro/mcarto2021/blob/master/Map_Window_Management.ipynb (English version)
+* https://github.com/holgervirro/mcarto2021/blob/master/Kaardiakna_juhtimine.ipynb (Estonian version)
+* https://github.com/holgervirro/mcarto2021/blob/master/Map_Window_Management.ipynb (English version)
 
 The second tutorial focuses on additional map elements, such as point symbols and different cartographic line objects (orthodrome, rhumb line, almucantar)
-* https://github.com/hvirro/mcarto2021/blob/master/Kaardielemendid.ipynb (Estonian version)
-* https://github.com/hvirro/mcarto2021/blob/master/Map_Elements.ipynb (English version)
+* https://github.com/holgervirro/mcarto2021/blob/master/Kaardielemendid.ipynb (Estonian version)
+* https://github.com/holgervirro/mcarto2021/blob/master/Map_Elements.ipynb (English version)
 
 ## Preparation
 We will use [Anaconda](https://conda.io/en/master/miniconda.html) for these exercises, which should be installed in the computer class. For setting it up on your own machine you can use the [tutorial](https://kodu.ut.ee/~kmoch/geopython2020/L0/Installing_Miniconda_GIS.html) provided by Alex Kmoch.
