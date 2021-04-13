@@ -12,7 +12,7 @@ The second tutorial focuses on additional map elements, such as point symbols an
 ## Preparation
 We will use [Anaconda](https://conda.io/en/master/miniconda.html) for these exercises, which should already be installed in the computer class. For setting it up on your own machine you can use the [tutorial](https://kodu.ut.ee/~kmoch/geopython2020/L0/Installing_Miniconda_GIS.html) provided by Alex Kmoch.
 
-First, download and unzip this repository to a folder you can find on your machine.
+First, download and unzip this repository into a folder you can find on your machine.
 
 *Clone or download -> Download ZIP*
 
