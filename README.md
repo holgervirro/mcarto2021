@@ -16,7 +16,7 @@ Click the Binder icon below to launch the environment and access the notebooks
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/holgervirro/mcarto2021/HEAD)
 
-**\textcolor{red}NB{red}** As Binder works online, edits made in the notebooks will not be saved if you close the browser or quit the environment. If you wish to save your task solution progress then you should either
+**<span style="color:red">NB</span>** As Binder works online, edits made in the notebooks will not be saved if you close the browser or quit the environment. If you wish to save your task solution progress then you should either
 * download the notebook (*.ipynb*) and then continue working using your own Anaconda setup (see below)
 * copy the cell content of your solution somewhere (e.g. Notepad), so you could paste it when you restart Binder next time
 
