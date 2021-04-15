@@ -20,6 +20,8 @@ Click the Binder icon below to launch the environment and access the notebooks
 * download the notebook (*.ipynb*) and then continue working using your own Anaconda setup (see below)
 * copy the cell content of your solution somewhere (e.g. Notepad), so you could paste it when you restart Binder next time
 
+![binder_download](img/binder_download.png)
+
 ## Setting up Anaconda on your machine
 We will use [Anaconda](https://conda.io/en/master/miniconda.html) for these exercises, which should already be installed in the computer class. For installing it on your own machine you can use the [tutorial](https://kodu.ut.ee/~kmoch/geopython2020/L0/Installing_Miniconda_GIS.html) provided by Alex Kmoch.
 
