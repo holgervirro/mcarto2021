@@ -47,7 +47,7 @@ We will start by creating an Anaconda environment using the existing environment
 
 The next command will activate the Anaconda environment we just created.
 
-`activate mcarto2021`
+`conda activate mcarto2021`
 
 Before we start Python coding we will make our newly created conda Python environment known to the Jupyter notebook system by installing the kernel, basically the execution engine link from Jupyter web notebook to our Python environment.
 
@@ -58,3 +58,5 @@ Finally, we can activate the Jupyter environment.
 `jupyter lab`
 
 A browser window will open where clicking on a Jupyter notebook file with the extension *.ipynb* allows you to start editing the notebook.
+
+In order to make sure that Jupyter uses the correct Anaconda environment select `Kernel -> Change Kernel` and choose the `mcarto2021` as the preferred kernel.
