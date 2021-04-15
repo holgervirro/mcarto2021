@@ -59,4 +59,4 @@ Finally, we can activate the Jupyter environment.
 
 A browser window will open where clicking on a Jupyter notebook file with the extension *.ipynb* allows you to start editing the notebook.
 
-In order to make sure that Jupyter uses the correct Anaconda environment select `Kernel -> Change Kernel` and choose the `mcarto2021` as the preferred kernel.
+In order to make sure that Jupyter uses the correct Anaconda environment select `Kernel -> Change Kernel` and choose `mcarto2021` as the preferred kernel.
