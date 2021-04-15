@@ -39,7 +39,7 @@ Now move to the folder where you unzipped the GitHub repository.
 
 You should be able to see the content of this folder with the `ls` command.
 
-![folder](https://github.com/holgervirro/mcarto2021/blob/1eb3f568488479606df9df23e7fc0f92786788d9/img/folder.PNG)
+![folder](https://github.com/holgervirro/mcarto2021/blob/66d79bda812a587f4a1f9418c4883b2fd1f96540/img/folder.PNG)
 
 We will start by creating an Anaconda environment using the existing environment file `environment.yml`, which installs all Python libraries needed for the two exercises.
 
